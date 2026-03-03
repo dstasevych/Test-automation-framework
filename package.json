@@ -1,1 +1,16 @@
-{\n  "name": "test-framework",\n  "version": "1.0.0",\n  "scripts": {\n    "test": "playwright test"\n  },\n  "devDependencies": {\n    "@playwright/test": "latest",\n    "typescript": "latest"\n  }\n}
+{
+  "scripts": {
+    "test:ui": "...",
+    "report": "...",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "prettier": "^2.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "eslint-config-prettier": "^8.0.0"
+  }
+}
