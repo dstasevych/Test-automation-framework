@@ -1,16 +1,1 @@
-{
-  "scripts": {
-    "test:ui": "...",
-    "report": "...",
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
-  },
-  "devDependencies": {
-    "eslint": "^7.0.0",
-    "prettier": "^2.0.0",
-    "@typescript-eslint/parser": "^4.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.0.0",
-    "eslint-config-prettier": "^8.0.0"
-  }
-}
+{"name": "your-package-name","version": "1.0.0","private": true,"scripts": {"test": "your-test-command","test:ui": "your-ui-test-command","report": "your-report-command","lint": "your-lint-command","format": "your-format-command","format:check": "your-format-check-command"},"devDependencies": {"@playwright/test": "latest","typescript": "latest","eslint": "latest","prettier": "latest","@typescript-eslint/parser": "latest","@typescript-eslint/eslint-plugin": "latest","eslint-config-prettier": "latest"}}
